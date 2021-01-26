@@ -1,4 +1,16 @@
-# ACM Research Coding Challenge (Spring 2021)
+# ACM Research Coding Challenge (Spring 2021) 
+This entry was programmed by Thomas Symalla.
+
+# Things used in development:
+- Java (with IntelliJ)
+- CGView. Repository at https://github.com/paulstothard/cgview. Citation: Stothard P, Wishart DS (2005) Circular genome visualization and exploration using CGView. Bioinformatics 21:537-539.
+
+# Notes:
+- CGView is a submodule. Shouldn't need to update it though.
+- 
+
+
+As follows is the original, generic README:
 
 ## No Collaboration Policy
 

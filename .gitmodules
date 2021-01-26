@@ -1,0 +1,3 @@
+[submodule "cgview"]
+	path = cgview
+	url = https://github.com/paulstothard/cgview.git
