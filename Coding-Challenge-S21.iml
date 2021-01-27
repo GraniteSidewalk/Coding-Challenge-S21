@@ -3,9 +3,56 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/cgview/src/main/java/ca/ualberta/stothard/cgview" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/.github" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-aa-prop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-alignment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-genome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-integrationtest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-modfinder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-ontology" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-protein-comparison-tool" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-protein-disorder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-structure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-structure-gui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-survival" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/biojava-ws" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biojava/development" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-structure-gui" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-aa-prop" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-alignment" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-genome" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-integrationtest" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-modfinder" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-ontology" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-protein-comparison-tool" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-protein-disorder" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-structure" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-survival" />
+      <excludeFolder url="file://$MODULE_DIR$/biojava/biojava-ws" />
     </content>
-    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/biojava-core-4.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/cgview/bin/cgview.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
