@@ -14,8 +14,11 @@ import org.biojava.nbio.core.sequence.template.AbstractSequence;
 
 
 import static ca.ualberta.stothard.cgview.CgviewConstants.*;
+
+import java.awt.*;
 import java.io.*;
 import java.util.*;
+import java.util.List;
 
 
 public class Main {
@@ -50,13 +53,15 @@ public class Main {
         }*/
 
         Cgview cgview = new Cgview(length);
-        cgview.setWidth(1000);
-        cgview.setHeight(1000);
-        cgview.setBackboneRadius(160.0f);
+        cgview.setWidth(1200);
+        cgview.setHeight(1200);
+        cgview.setBackboneRadius(360.0f);
         cgview.setLabelPlacementQuality(10);
-        cgview.setLabelLineLength(8.0d);
+        cgview.setLabelLineLength(32.0d);
         cgview.setLabelLineThickness(0.5f);
-        FeatureSlot directSlot = new FeatureSlot(cgview, DIRECT_STRAND);
+        cgview.setUseInnerLabels(CgviewConstants.INNER_LABELS_SHOW);
+        cgview.setMoveInnerLabelsToOuter(false);
+        FeatureSlot directSlot = new FeatureSlot(cgview, CgviewConstants.DIRECT_STRAND);
         FeatureSlot reverseSlot = new FeatureSlot(cgview, CgviewConstants.REVERSE_STRAND);
 
         /*
@@ -101,9 +106,11 @@ public class Main {
                     else
                         activeSlot = reverseSlot;
                     x++;
-                    Feature feature = new Feature(activeSlot, locus_tag + " - " + product + " : " + protein_id);
+                    Feature feature = new Feature(activeSlot, locus_tag + " - " + product);
                     FeatureRange featureRange = new FeatureRange (feature, start.getPosition(), end.getPosition());
+                    featureRange.setColor(Color.magenta);
                     featureRange.setDecoration(DECORATION_CLOCKWISE_ARROW);
+                    featureRange.setMouseover("ID: " + protein_id);
                 }
 
             }
@@ -130,6 +137,8 @@ public class Main {
                     }
                 }
             }
+
+
         }
 
 
