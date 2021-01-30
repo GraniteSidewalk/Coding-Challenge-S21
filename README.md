@@ -3,15 +3,16 @@ This entry was programmed by Thomas Symalla for the ACM Spring 2021 research cod
 
 # Things used in development:
 - Java (with IntelliJ).
-- CGView. Repository at https://github.com/paulstothard/cgview. Citation: Stothard P, Wishart DS (2005) Circular genome visualization and exploration using CGView. Bioinformatics 21:537-539.
-- Biojava. Repository at  Citation: BioJava 5: A community driven open-source bioinformatics library
+- CGView. Repository at https://github.com/paulstothard/cgview . Citation: Stothard P, Wishart DS (2005) Circular genome visualization and exploration using CGView. Bioinformatics 21:537-539.
+- Biojava. Source at https://mvnrepository.com/artifact/org.biojava . Citation: BioJava 5: A community driven open-source bioinformatics library
 Aleix Lafita, Spencer Bliven, Andreas Prlić, Dmytro Guzenko, Peter W. Rose, Anthony Bradley, Paolo Pavan, Douglas Myers-Turnbull, Yana Valasatava, Michael Heuer, Matt Larson, Stephen K. Burley, & Jose M. Duarte
 PLOS Computational Biology (2019) 15 (2):e1006791.
 
 # Notes:
-- Simply run the console application and it will take the file named "Genome.gb" and produce image in the root directory.
+- Simply run "Coding-Challenge-S21.jar" and it will take the file named "Genome.gb" and produce image in the root directory. This file was compiled using intellij.
 - Easily expanded for more functionality if so desired.
-- CGView and Biojava are included as submodules. Shouldn't need to update them though.
+- CGView is included as a submodule. Shouldn't need to update it.
+- Biojava is included as a Maven dependency.
 
 As follows is the original, generic README for the S21 ACM Research Coding Challenge:
 

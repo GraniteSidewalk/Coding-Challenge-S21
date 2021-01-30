@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Coding-Challenge-S21:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Coding_Challenge_S21_jar</output-path>
+    <root id="archive" name="Coding-Challenge-S21.jar">
+      <element id="module-output" name="Coding-Challenge-S21" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/biojava/biojava-core/5.4.0/biojava-core-5.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.13.1/log4j-api-2.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cgview/bin/cgview.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.13.1/log4j-core-2.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-slf4j-impl/2.13.1/log4j-slf4j-impl-2.13.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
